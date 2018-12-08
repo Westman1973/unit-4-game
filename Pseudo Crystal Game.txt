@@ -1,0 +1,32 @@
+1.	Random number generator between 19-120
+        function randomTargetNumber () {
+		targetNumber = Math.floor(Math.random() * 120) + 19;
+a.	Variable random number
+b.	math.random function
+c.	store the random number in variable
+d.	append (.text ?) the random number to page – a function to display number
+
+2.	On Click function for Gems
+       counter += parseInt($(this).attr("value"));
+		$(".score-number").html(counter);
+		
+
+a.	Random number variable in each gem between 1-12
+b.	When clicked, we need to add the random number to total scorre
+c.	Display total score after added
+
+3.	Conditional Logic functions
+if (counter == targetNumber) {
+			wins++;
+			totalReset();
+		}
+		else if (counter > targetNumber) {
+			losses++;
+			totalReset();
+a.	If/else statements
+i.	If total score is > random number (step 1), player loses
+ii.	If = then player wins
+
+4.	Alert that says you win or you lose and Refresh game.
+5.	Track wins and loses in score card
+6.	

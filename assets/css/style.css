@@ -1,0 +1,43 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.jumbotron {
+	background-color: blue;
+	color: greenyellow;
+}
+
+.target-number {
+	font-size: 30px;
+	background-color: rgb(156, 248, 240);
+	border-style: solid;
+	border-color: #ddd;
+	border-width: 10px;
+}
+
+.win-lose-counter {
+    font-size: 20px;
+	background-color: rgb(156, 248, 240);
+	border-style: solid;
+	border-color: #ddd;
+	border-width: 10px;
+}
+
+.gem-images {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.total-score {
+	color: white;
+    background-color: purple;
+    border-width: 10px;
+}
+
+.score-number {
+	color: white;
+	background-color: purple;
+    font-size: 30px;
+    border-width: 10px;
+}

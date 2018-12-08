@@ -1,0 +1,26 @@
+1. Gather images for game
+    - Red crystal
+    - Blue crystal
+    - Green crystal
+    - Yellow crystal
+
+1.	Random number generator between 19-120
+a.	Variable random number
+b.	math.random function
+c.	store the random number in variable
+d.	append (.text ?) the random number to page – a function to display number
+
+2.	On Click function for Gems
+a.	Random number variable in each gem between 1-12
+b.	When clicked, we need to add the random number to total score
+c.	Display total score after added
+
+3.	Conditional Logic functions
+a.	If/else statements
+i.	If total score is > random number (step 1), player loses
+ii.	If = then player wins
+
+4.	Alert that says you win or you lose and Refresh game.
+5.	Track wins and loses in score card
+6.	
+
